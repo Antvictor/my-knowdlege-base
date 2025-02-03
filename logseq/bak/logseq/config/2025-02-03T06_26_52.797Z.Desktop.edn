@@ -172,7 +172,8 @@
  ;;  :editor/down            ["ctrl+j" "down"]
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
- :shortcuts {}
+ :shortcuts {
+             }
 
  ;; Configure the behavior of pressing Enter in document mode.
  ;; if set to true, pressing Enter will create a new block.
@@ -299,7 +300,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["3W-Template"]
+ :favorites ["Contents"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -419,4 +420,9 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :journal/page-title-format "yyyy_MM_dd"}
+ :journal/page-title-format "yyyy_MM_dd"
+ :publishing/all-pages-public? false
+ :graph/settings {:journal? false
+ :builtin-pages? true
+ :orphan-pages? false
+ :excluded-pages? true}}
