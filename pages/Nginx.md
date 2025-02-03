@@ -1,0 +1,2 @@
+- Nginx Mac 配置路径：`/usr/local/etc/nginx/conf.d/`
+-

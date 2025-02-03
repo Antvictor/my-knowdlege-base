@@ -421,7 +421,7 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :journal/page-title-format "yyyy_MM_dd"
- :publishing/all-pages-public? false
+ :publishing/all-pages-public? true
  :graph/settings {:journal? false
  :builtin-pages? true
  :orphan-pages? false
