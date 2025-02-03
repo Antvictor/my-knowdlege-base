@@ -26,5 +26,7 @@
 - {{query (property :tags "note")}}
   query-table:: true
   query-properties:: [:page :tags :alias :status :first]
+  query-sort-by:: status
+  query-sort-desc:: true
 -
 -

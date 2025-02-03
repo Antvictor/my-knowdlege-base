@@ -423,6 +423,6 @@
  :journal/page-title-format "yyyy_MM_dd"
  :publishing/all-pages-public? false
  :graph/settings {:journal? false
- :builtin-pages? false
+ :builtin-pages? true
  :orphan-pages? false
- :excluded-pages? false}}
+ :excluded-pages? true}}
